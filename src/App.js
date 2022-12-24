@@ -1,14 +1,14 @@
-import React, { Component } from 'react'
-import Pokecard from './Pokecard';
+import React, { Component } from "react";
+import Pokedex from "./Pokedex";
 
 class App extends Component {
-  render() { 
+  render() {
     return (
-      <div className='poke'>
-         <Pokecard id={4} name={'Charmander'} type={'fire'}  base_experience={62} /> 
+      <div className="poke">
+        <Pokedex/>
       </div>
     );
   }
 }
- 
+
 export default App;
